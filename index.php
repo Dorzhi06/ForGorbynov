@@ -24,6 +24,8 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
             <div class="navbar-brand">
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-7" href="index.php">Личный сайт</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-7" href="index.php">Главное</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -119,7 +121,7 @@
                     <div class="card-box align-center">
                         <a class="navbar-caption display-7" href="InfoStudy.php">
                             <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-user mobi-mbri"></span>
+                                <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
                             </div>
                             <h5 class="card-title mbr-fonts-style display-7"><strong>Достижения студентов</strong></h5>
                         </a>
@@ -131,7 +133,7 @@
                     <div class="card-box align-center">
                         <a class="navbar-caption display-7" href="TeachDoing.php">
                             <div class="iconfont-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-user mobi-mbri"></span>
+                                <span class="mbr-iconfont mobi-mbri-edit mobi-mbri"></span>
                             </div>
                             <h5 class="card-title mbr-fonts-style display-7"><strong>Педагогическая деятельность</strong></h5>
                         </a>
@@ -158,7 +160,7 @@
                         <h5 class="item-title mbr-fonts-style display-5">Администрирование сети предприятия</h5>
                     </div>
                     <div class="mbr-section-btn item-footer mt-2">
-                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_seti_predpriatia.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее &gt;</a>
+                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_seti_predpriatia.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее &gt;</a>
                     </div>
                 </div>
             </div>
@@ -171,7 +173,7 @@
                             <h5 class="item-title mbr-fonts-style display-5">С администрированием на ТЫ</h5>
                         </div>
                         <div class="mbr-section-btn item-footer mt-2">
-                            <a href="assets/files/POLOZhENIE_OLIMPIADY_S_administrirovanie_na_TY.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
+                            <a href="assets/files/POLOZhENIE_OLIMPIADY_S_administrirovanie_na_TY.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
                         </div>
                     </div>
             </div>
@@ -184,7 +186,7 @@
                         <h5 class="item-title mbr-fonts-style display-5">Компьютерные сети</h5>
                     </div>
                     <div class="mbr-section-btn item-footer mt-2">
-                        <a href="assets/files/POLOZhENIE_OLIMPIADY_Kompyuternye_seti.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
+                        <a href="assets/files/POLOZhENIE_OLIMPIADY_Kompyuternye_seti.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
                     </div>
                 </div>
             </div>
@@ -196,8 +198,8 @@
                     <div class="item-content">
                         <h5 class="item-title mbr-fonts-style display-5">Администрирование ОС</h5>    
                     </div>
-                    <div class="mbr-section-btn item-footer mt-2">
-                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_OS.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
+                    <div class="mbr-section-btn item-footer mt-2" id=btn>
+                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_OS.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
                     </div>
                 </div>
             </div>
@@ -210,7 +212,7 @@
         <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Расписание декады</strong></h3>
         <div class="row align-items-center">
             <div class="col-12 col-md">
-                <div class="text-wrapper">
+                <div class="text-wrapper table-responsive">
                     <table class="table">
                         <thead>
                             <tr>

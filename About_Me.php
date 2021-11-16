@@ -30,7 +30,7 @@
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
             <div class="navbar-brand">
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-7" href="index.php">Личный сайт</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-secondary display-7" href="index.php">Главное</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -72,7 +72,30 @@
             <div class="col-12 col-md">
                 <div class="text-wrapper">
                     <p class="mbr-text mbr-fonts-style mb-4 display-5"><strong>Алексей Горбунов</strong></p>
-                    <p class="name mbr-fonts-style mb-1 display-7">Должность: Преподаватель проф. образования<br>Место работы:&nbsp;&nbsp;ГПОУ "ЧТОТиБ"<br>Стаж работы: 2 года<br>Образование: Среднее профессиональное</p>
+                    <p class="name mbr-fonts-style mb-1 display-7">
+                        Должность: Преподаватель проф. образования<br>
+                        Место работы:&nbsp;&nbsp;ГПОУ "ЧТОТиБ"<br>
+                        Стаж работы: 2 года<br>
+                        Образование: Среднее профессиональное<br>
+                        Обучаюсь: ЗабГУ 11.02.15 "Инфокоммуникационные сети и системы связи", Синергия Информационные системы и технологии<br>
+                        Перечень преподаваемых учебных дисциплин и профессиональных модулей:<br>
+                    </p>
+                    <ul class="name mbr-fonts-style mb-1 display-7">
+                        <li>ОП.04 Вычислительная техника</li>
+                        <li>ОП.13 Технология физического уровня передачи информации</li>
+                        <li>ПМ. 01 Выполнение работ по проектированию сетевой инфраструктуры
+                            <ul>
+                                <li>МДК 01.01 Компьютерные сети</li>
+                            </ul>
+                        </li>
+                        <li>ПМ. 01 Техническая эксплуатация инфокоммуникационных сетей связи
+                            <ul>
+                                <li>МДК 01.01 Монтаж и эксплуатация направляющих систе</li>
+                                <li>МДК 01.03 Монтаж и эксплуатация мультисервисных сетей абонентского доступа</li>
+                                <li>МДК.01.04 Монтаж и эксплуатация систем видеонаблюдения и систем безопасности</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -84,7 +107,7 @@
         <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Образование</strong></h3>
         <div class="row align-items-center">
             <div class="col-12 col-md">
-                <div class="text-wrapper">
+                <div class="text-wrapper table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
@@ -117,7 +140,7 @@
         <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Повышение квалификации</strong></h3>
         <div class="row align-items-center">
             <div class="col-12 col-md">
-                <div class="text-wrapper">
+                <div class="text-wrapper table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
