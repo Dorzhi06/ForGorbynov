@@ -20,12 +20,108 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
+  <link rel="stylesheet" href="../assets/style/style.css">
+  
   
         <div class="mbr-section-head">
-            <div class="col-12">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Учебно-методический комлекс</strong>
-                </h4>
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Учебно-методический комлекс</strong>
+                    </h4>
+                </div>
+            </div>
+            <div class="row" style="font-size: 16pt; margin: 30px" id="myList">
+                <ul>
+                    <li>ОП 04. Вычислительная техника
+                        <ul>
+                            <li><a target="_blank" href="../assets/files/YMK/OP_04_COMPUTER_TECHNOLOGY/Annotation_Computational_engineering.docx">Аннотация "Вычислительная техника"</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/OP_04_COMPUTER_TECHNOLOGY/KOS_Computational_technology.docx">КОС Вычислительная техника</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/OP_04_COMPUTER_TECHNOLOGY/KTP_Computer_technology.docx">КТП Вычислительная техника</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/OP_04_COMPUTER_TECHNOLOGY/Manual.docx">Методичка</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/OP_04_COMPUTER_TECHNOLOGY/RP_Computational_technology.docx">РП Вычислительная техника</a></li>
+                        </ul>
+                    </li>
+                    <li>ПМ 01. Техническая эксплуатация инфокоммуникационных сетей связи
+                        <ul>
+                            <li>МДК 01.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/MDK_01.01/KTP_MDK_01_01.docx">1-2 семестр</a></li>
+                                </ul>
+                            </li>
+                            <li>МДК 01.04
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/MDK_01_04/KPT_MDK_01_04_1_sem.docx">1 семестр</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/MDK_01_04/KPT_MDK_01_04_2_sem.docx">2 семестр</a></li>
+                                </ul>
+                            </li>
+                            <li>ПП 01.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/PP_01_01/KPT_PP_03_01.docx">КТП ПП 03.01</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/PP_01_01/RP_PP_01_01.docx">РП ПП 01.01</a></li>
+                                </ul>
+                            </li>
+                            <li>УП 01.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/YP_01_01/KTP_YP_01_01.docx">КТП УП 01.01</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/YP_01_01/RP_YP_01_01.docx">РП УП 01.01</a></li>
+                                </ul>
+                            </li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/PM_01.doc">ПМ 01</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/PM_05.doc">ПМ 05</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/Annot_PM_01.docx">Аннотация ПМ 01</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/Annot_PM_05.docx">Аннотация ПМ 05</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_01_Technical_operation_of_info_communication_networks/RP_PM_01.doc">РП ПМ 01</a></li>
+                        </ul>
+                    </li>
+                    <li>ПМ 02. Техническая эксплуатация инфокоммуникационных систем
+                        <ul>
+                            <li>МДК 02.02
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_02_Technical_operation_of_infocommunication_systems/MDK_02_02/KTP_MDK_02_02_1-2_sem.docx">КТП ИКСиС-19-1 1-2 семестр</a></li>
+                                </ul>
+                            </li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_02_Technical_operation_of_infocommunication_systems/Annot_PM_02.docx">Аннотация ПМ 02</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_02_Technical_operation_of_infocommunication_systems/RP_PM_02.doc">РП ПМ 02</a></li>
+                        </ul>
+                    </li>
+                    <li>ПМ 03. Обеспечение информационной безопасности инфокоммуникационных сетей и систем связи
+                        <ul>
+                            <li>MDK 03.02
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/MDK_03_02/KTP_1_sem.docx">КПТ 1 семестр</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/MDK_03_02/KTP_2_sem.docx">КПТ 2 семестр</a></li>
+                                </ul>
+                            </li>
+                            <li>ПП 03.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/PP_03_01/KTP_PP.docx">КТП ПП 03.01</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/PP_03_01/RP_PP.docx">РП ПП 03.01</a></li>
+                                </ul>
+                            </li>
+                            <li>УП 03.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/YP_03_01/KTP_YP.docx">КТП УП 03.01</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/YP_03_01/RP_YP.docx">РП УП 03.01</a></li>
+                                </ul>
+                            </li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/Annot_PM_03.docx">Аннотация ПМ 03</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_03_Ensuring_information_security_information_communication_networks_and_communication_systems/RP_PM_03.doc">РП ПМ 03</a></li>
+                        </ul>
+                    </li>
+                    <li>ПМ 05. Адаптация конвергентных технологий и систем к потребностям заказчика
+                        <ul>
+                            <li>МДК 05.01
+                                <ul>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_05_Adaptation_converged_technologies_and_systems_to_customer_needs/MDK_PM_05/KTP_1_sem.docx">КТП 1 семестр</a></li>
+                                    <li><a target="_blank" href="../assets/files/YMK/PM_05_Adaptation_converged_technologies_and_systems_to_customer_needs/MDK_PM_05/KTP_2_sem.docx">КТП 2 семестр</a></li>
+                                </ul>
+                            </li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_05_Adaptation_converged_technologies_and_systems_to_customer_needs/Annot_PM_05.docx">Аннотация ПМ 05</a></li>
+                            <li><a target="_blank" href="../assets/files/YMK/PM_05_Adaptation_converged_technologies_and_systems_to_customer_needs/RP_PM_05.doc">РП ПМ 05</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
         

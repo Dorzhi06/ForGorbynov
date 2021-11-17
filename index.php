@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="col-12 col-md">
-                <div class="text-wrapper">
+                <div class="text-wapper">
                     <p class="mbr-text mbr-fonts-style mb-4 display-5"><strong>Алексей Горбунов</strong></p>
                     <p class="name mbr-fonts-style mb-1 display-7">Должность: Преподаватель проф. образования<br>Место работы:&nbsp;&nbsp;ГПОУ "ЧТОТиБ"<br>Стаж работы: 2 года<br>Образование: Среднее профессиональное</p>  
                     <a href="About_Me.php" class="btn btn-primary item-btn display-7">Подробнее &gt;</a>
@@ -159,8 +159,8 @@
                     <div class="item-content">
                         <h5 class="item-title mbr-fonts-style display-5">Администрирование сети предприятия</h5>
                     </div>
-                    <div class="mbr-section-btn item-footer mt-2">
-                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_seti_predpriatia.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее &gt;</a>
+                    <div class="mbr-section-btn item-footer mt-2" id=btn>
+                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_seti_predpriatia.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее &gt;</a>
                     </div>
                 </div>
             </div>
@@ -172,8 +172,8 @@
                         <div class="item-content">
                             <h5 class="item-title mbr-fonts-style display-5">С администрированием на ТЫ</h5>
                         </div>
-                        <div class="mbr-section-btn item-footer mt-2">
-                            <a href="assets/files/POLOZhENIE_OLIMPIADY_S_administrirovanie_na_TY.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
+                        <div class="mbr-section-btn item-footer mt-2" id=btn>
+                            <a href="assets/files/POLOZhENIE_OLIMPIADY_S_administrirovanie_na_TY.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
                         </div>
                     </div>
             </div>
@@ -185,8 +185,8 @@
                     <div class="item-content">
                         <h5 class="item-title mbr-fonts-style display-5">Компьютерные сети</h5>
                     </div>
-                    <div class="mbr-section-btn item-footer mt-2">
-                        <a href="assets/files/POLOZhENIE_OLIMPIADY_Kompyuternye_seti.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
+                    <div class="mbr-section-btn item-footer mt-2" id=btn>
+                        <a href="assets/files/POLOZhENIE_OLIMPIADY_Kompyuternye_seti.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@
                         <h5 class="item-title mbr-fonts-style display-5">Администрирование ОС</h5>    
                     </div>
                     <div class="mbr-section-btn item-footer mt-2" id=btn>
-                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_OS.docx" class="btn btn-primary item-btn display-7" target="_blank" id=btn>Подробнее&gt;</a>
+                        <a href="assets/files/POLOZhENIE_KONKURSA_Administrirovanie_OS.docx" class="btn btn-primary item-btn display-7" target="_blank">Подробнее&gt;</a>
                     </div>
                 </div>
             </div>

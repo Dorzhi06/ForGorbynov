@@ -67,57 +67,52 @@
     </nav>
 </section>
 <!-- My xp -->
-<section data-bs-version="5.1" class="features17 cid-sOFNobU1wg" id="features18-k">
+<section data-bs-version="5.1" class="features1 cid-sOFLQOOXPR" id="features1-h">
     <div class="container">
-        <div class="mbr-section-head">
-           <div class="row">
-               <div class=col-12>
-                   <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Педагогическая деятельность</strong>
-                    </h4>
-               </div>
-           </div>
-            <div class="row" style="margin: 75px 0px 100px 0px">
-                <div class="col-4">
-                    <a id=YMK>
-                        <div class="row">
-                            <img src="assets/images/icon/YMK.png" id="img-logo"/>
-                        </div>
-                        <div class="row" style="margin: 30px 0px 0px 0px">
-                            <h5 class="mbr-section-title mbr-fonts-style align-center mb-0">
-                                <strong>Учебно-методический комлекс</strong>
-                            </h5>
-                        </div>
-                    </a>
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Портфолио</strong></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a class="navbar-caption display-7" id=YMK>
+                            <div class="iconfont-wrapper">
+                                <img src="assets/images/icon/YMK.png" id="img-logo"/>
+                            </div>
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Учебно-методический комлекс</strong></h5>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <span id="photo">
-                        <a>
-                            <div class="row">
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a class="navbar-caption display-7" id=photo>
+                            <div class="iconfont-wrapper">
                                 <img src="assets/images/icon/photo.png" id="img-logo"/>
                             </div>
-                            <div class="row" style="margin: 30px 0px 0px 0px">
-                                <h5 class="mbr-section-title mbr-fonts-style align-center mb-0">
-                                    <strong>Фотогалерея учебных занятий</strong>
-                                </h5>
-                            </div>
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Фотогалерея учебных занятий</strong></h5>
                         </a>
-                    </span>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <a id="club-PRO">
-                       <div class="row">
-                           <img src="assets/images/icon/club-PRO.png" id="img-logo"/>
-                        </div>
-                        <div class="row" style="margin: 30px 0px 0px 0px">
-                            <h5 class="mbr-section-title mbr-fonts-style align-center mb-0">
-                                <strong>Клуб PRO-настрой</strong>
-                            </h5>
-                        </div>
-                    </a>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a class="navbar-caption display-7" id=club-PRO>
+                            <div class="iconfont-wrapper">
+                                <img src="assets/images/icon/club-PRO.png" id="img-logo"/>
+                            </div>
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Клуб PRO-настрой</strong></h5>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+        
         <div id="content" style="margin: 30px">
             <div class="mbr-section-head">
                 <div class="col-12">
@@ -210,7 +205,7 @@
             });
         </script>
     </div>
-</section>
+</section>  
 
 <section style="background-color: #232323; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:0px; padding: 0; align-items: center; display: flex;">
     <a href="https://mobirise.site/e" style="flex: 1 1; height: 0rem; padding-left: 1rem;"></a>

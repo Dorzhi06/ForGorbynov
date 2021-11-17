@@ -22,10 +22,47 @@
   
   
         <div class="mbr-section-head">
-            <div class="col-12">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Клуб PRO-настрой</strong>
-                </h4>
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Клуб PRO-настрой</strong>
+                    </h4>
+                </div>   
+            </div>
+            <div class="row" style="margin: 30px">
+                <h4 class="mbr-section-title mbr-fonts-style mb-0 display-5">Информация о клубе</h4>
+                <ul style="font-size: 16pt">
+                    <li><a href="../assets/files/Club-RPO/Who_is_sisAdmin.pdf" target="_blank">Кто такой сисадмин?</a></li>
+                    <li><a href="../assets/files/Club-RPO/Feedback_about_work_club.docx" target="_blank">Отзыв о работе клуба</a></li>
+                    <li><a href="../assets/files/Club-RPO/Network_and_system_administrator.ppsx" target="_blank">Сетевой и системный администратор</a></li>
+                    <li><a href="../assets/files/Club-RPO/special_conference_club.ppsx" target="_blank">Учредительная конференция клуба</a></li>
+                </ul>
+            </div>
+            <div class="row" style="margin: 30px">
+                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5">Наши фото</h4>
+                <?php
+                    $num=1;
+                    for($x=0; $x<4; $x++)
+                    {
+                        try{
+                            for($y=0;$y<3;$y++)
+                            {
+                                if($num==11) break;
+                                echo '  <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="card-wrapper mb-4">
+                                                <div class="card-box align-left">
+                                                    <img src="../assets/files/Club-RPO/photo/' . $num . '.jpg" alt="Mobirise">
+                                                </div>
+                                            </div>
+                                        </div>';
+                                $num++;
+                            }
+                        }catch(Exception $e)
+                        {
+
+                        } 
+                    }
+                ?>
             </div>
         </div>
         

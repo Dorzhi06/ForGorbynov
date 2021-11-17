@@ -15,3 +15,8 @@
     margin-right: auto;
     margin-top: auto;
 }
+
+#myList 
+{
+    target: _blank;
+}
